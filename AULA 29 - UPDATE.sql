@@ -1,0 +1,24 @@
+------------------------------ AULA 29 - UPDATE ------------------------------
+USE Northwind
+
+UPDATE AULA
+SET NOME = 'MATEMATICA'
+WHERE ID = 1;
+
+UPDATE AULA
+SET NOME = 'PORTUGUES'
+WHERE ID = 2;
+
+UPDATE AULA
+SET NOME = 'INGLES'
+WHERE ID = 3;
+
+UPDATE AULA
+SET NOME = 'FILOSOFIA'
+WHERE ID = 4;
+
+UPDATE AULA
+SET NOME = 'ARTE'
+WHERE ID = 5;
+
+SELECT * FROM AULA
